@@ -160,7 +160,7 @@ def preBuilt():
     print("Which prebuilt would you like to order?")
 
     for i in range(len(PREBUILTS)):
-        print("{} : {}, {}".format(PREBUILTS[i][0],PREBUILTS[i][1],PREBUILTS[1][2]))
+        print("{} : {}, {}".format(PREBUILTS[i][0],PREBUILTS[i][1],PREBUILTS[i][2]))
     while True:
         prebuilt = input("Choose the number that corresponds with the part you want: ")
         if prebuilt.isdigit():
